@@ -1,0 +1,12 @@
+{
+  "model_name": "VincentMuriuki/legal-summarizer",
+  "base_model": "t5-base",
+  "task": "summarization",
+  "description": "Fine-tuned T5 model for legal document summarization",
+  "max_input_length": 512,
+  "default_max_output_length": 150,
+  "default_min_output_length": 50,
+  "num_beams": 4,
+  "early_stopping": true,
+  "device": "cuda"
+}
